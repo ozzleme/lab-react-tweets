@@ -37,7 +37,9 @@ const tweetsArray = [
 function App() {
   return (
     <div className="App">
-      <Tweet />
+      <Tweet tweet={tweetsArray[0]} image="https://i.imgur.com/b0EdHVV.jpg" name="Thoughts of Dog®" handle="dog_feelings" timestamp="1h ago" message="the human likes to say. that i live here rent free. but i would argue. this housing accommodation. is my payment. for a lifetime of love. and excellent company" />
+      <Tweet tweet={tweetsArray[1]} image="https://i.imgur.com/b0EdHVV.jpg" name="Thoughts of Dog®" handle="dog_feelings" timestamp="2h ago" message="sometimes. the human presses their noggin against mine. to figure out what i’m thinking. so i just think really hard. about how much i love them. and hope they figure it out" />
+      <Tweet tweet={tweetsArray[2]} image="https://i.imgur.com/b0EdHVV.jpg" name="Thoughts of Dog®" handle="dog_feelings" timestamp="3h ago" message='here is what. i plan to accomplish today: bark loudly. but at nothing. lose my ball under the couch. politely ask the human. to get my ball. immediately lose it again. under the same couch. big nap. you have worked hard. repeat' />
     </div>
   );
 }
